@@ -16,3 +16,13 @@ Values
 (3,'Rahul',19,'Bangalore');
 
 select *from Students;
+
+select Name from Students;
+
+select Name, Age From students where City='Mumbai';
+
+select * from Students where Age> 20 and City='Delhi';
+
+SELECT * FROM Students WHERE Age < 22 OR City = 'Bangalore';
+
+SELECT * FROM Students WHERE NOT City = 'Mumbai';
